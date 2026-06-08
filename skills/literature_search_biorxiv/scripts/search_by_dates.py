@@ -26,7 +26,7 @@
 import argparse
 import json
 import sys
-from science_skills.scienceskillscommon import http_client
+from science_skills.skills.scienceskillscommon import http_client
 
 client = http_client.HttpClient(base_url="https://api.biorxiv.org/", qps=1.0)
 

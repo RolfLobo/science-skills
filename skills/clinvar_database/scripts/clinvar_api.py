@@ -35,7 +35,7 @@ import urllib.parse
 import xml.etree.ElementTree as ET
 
 import dotenv
-from science_skills.scienceskillscommon import http_client
+from science_skills.skills.scienceskillscommon import http_client
 
 
 class _Response:

@@ -38,7 +38,7 @@ import sys
 import urllib.parse
 import xml.etree.ElementTree as ET
 
-from science_skills.scienceskillscommon import http_client
+from science_skills.skills.scienceskillscommon import http_client
 
 _API_BASE = "https://www.ebi.ac.uk/europepmc/webservices/rest/"
 _PDF_BASE = "https://europepmc.org/"

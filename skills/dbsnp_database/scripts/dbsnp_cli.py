@@ -39,7 +39,7 @@ import sys
 import urllib.parse
 
 import dotenv
-from science_skills.scienceskillscommon import http_client
+from science_skills.skills.scienceskillscommon import http_client
 
 _BASE_URL = "https://api.ncbi.nlm.nih.gov"
 

@@ -30,7 +30,7 @@ import sys
 import time
 import uuid
 
-from science_skills.scienceskillscommon import http_client
+from science_skills.skills.scienceskillscommon import http_client
 
 ALLOWED_DATABASES = [
     "afdb50",

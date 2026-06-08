@@ -32,7 +32,7 @@ import sys
 import urllib.parse
 import xml.etree.ElementTree as ET
 
-from science_skills.scienceskillscommon import http_client
+from science_skills.skills.scienceskillscommon import http_client
 
 BASE_URL = 'https://www.proteinatlas.org/'
 CLIENT = http_client.HttpClient(BASE_URL, qps=2.0)

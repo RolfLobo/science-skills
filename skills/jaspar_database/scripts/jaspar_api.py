@@ -30,7 +30,7 @@ import sys
 import urllib.parse
 import urllib.request
 
-from science_skills.scienceskillscommon import http_client
+from science_skills.skills.scienceskillscommon import http_client
 
 JASPAR_URL = "https://jaspar.elixir.no/api/v1/"
 _CLIENT = http_client.HttpClient(JASPAR_URL, qps=10)

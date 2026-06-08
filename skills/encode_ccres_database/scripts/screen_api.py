@@ -32,7 +32,7 @@ import argparse
 import json
 import sys
 
-from science_skills.scienceskillscommon import http_client
+from science_skills.skills.scienceskillscommon import http_client
 
 API_URL = "https://factorbook.api.wenglab.org/graphql"
 _CLIENT = http_client.HttpClient(

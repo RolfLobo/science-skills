@@ -33,7 +33,7 @@ import time
 from typing import Any
 import urllib.parse
 
-from science_skills.scienceskillscommon import http_client
+from science_skills.skills.scienceskillscommon import http_client
 
 BASE_URL = "https://www.ebi.ac.uk/interpro/api/"
 DEFAULT_PAGE_SIZE = 200

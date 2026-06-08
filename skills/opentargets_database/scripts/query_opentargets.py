@@ -34,7 +34,7 @@ import re
 import sys
 from typing import Any
 
-from science_skills.scienceskillscommon import http_client
+from science_skills.skills.scienceskillscommon import http_client
 
 BASE_URL = "https://api.platform.opentargets.org/api/v4/graphql"
 _CLIENT = http_client.HttpClient(BASE_URL, qps=1.0)

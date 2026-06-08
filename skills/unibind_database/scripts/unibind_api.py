@@ -32,7 +32,7 @@ import sys
 from typing import Any
 import urllib.parse
 
-from science_skills.scienceskillscommon import http_client
+from science_skills.skills.scienceskillscommon import http_client
 
 UNIBIND_API_PREFIX = "api/v1"
 # This has to be the bare domain to support download links

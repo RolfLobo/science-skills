@@ -34,7 +34,7 @@ import sys
 from typing import Any
 import urllib.parse
 
-from science_skills.scienceskillscommon import http_client
+from science_skills.skills.scienceskillscommon import http_client
 
 RATE_LIMIT_DELAY = 0.2
 MAX_RETRIES = 10

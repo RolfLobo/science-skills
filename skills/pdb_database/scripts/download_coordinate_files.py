@@ -28,7 +28,7 @@ import argparse
 import os
 import sys
 
-from science_skills.scienceskillscommon import http_client
+from science_skills.skills.scienceskillscommon import http_client
 
 CLIENT = http_client.HttpClient("https://files-beta.rcsb.org", qps=5.0)
 

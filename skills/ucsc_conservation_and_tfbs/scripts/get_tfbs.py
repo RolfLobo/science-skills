@@ -28,7 +28,7 @@ import json
 import re
 import sys
 from typing import Any
-from science_skills.scienceskillscommon import http_client
+from science_skills.skills.scienceskillscommon import http_client
 
 UCSC_API_URL = "https://api.genome.ucsc.edu/getData/track"
 

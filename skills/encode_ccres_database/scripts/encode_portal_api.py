@@ -26,7 +26,7 @@
 import argparse
 import json
 
-from science_skills.scienceskillscommon import http_client
+from science_skills.skills.scienceskillscommon import http_client
 
 BASE_URL = "https://www.encodeproject.org"
 _CLIENT = http_client.HttpClient(BASE_URL, qps=10)

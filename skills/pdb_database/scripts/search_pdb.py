@@ -32,7 +32,7 @@ import json
 import sys
 import urllib.parse
 
-from science_skills.scienceskillscommon import http_client
+from science_skills.skills.scienceskillscommon import http_client
 
 CLIENT = http_client.HttpClient("https://search.rcsb.org", qps=2.0)
 

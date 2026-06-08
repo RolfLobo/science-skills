@@ -27,7 +27,7 @@ import argparse
 import json
 import os
 import sys
-from science_skills.scienceskillscommon import http_client
+from science_skills.skills.scienceskillscommon import http_client
 
 CLIENT = http_client.HttpClient("https://alphafold.ebi.ac.uk", qps=1.0)
 

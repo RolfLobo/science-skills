@@ -32,7 +32,7 @@ import json
 import sys
 import urllib.parse
 
-from science_skills.scienceskillscommon import http_client
+from science_skills.skills.scienceskillscommon import http_client
 
 BASE_URL = 'https://gtexportal.org/api/v2'
 DATASET_ID = 'gtex_v10'

@@ -34,7 +34,7 @@ import time
 from typing import Any, Iterator
 import urllib.parse
 
-from science_skills.scienceskillscommon import http_client
+from science_skills.skills.scienceskillscommon import http_client
 
 
 class UniProtError(Exception):

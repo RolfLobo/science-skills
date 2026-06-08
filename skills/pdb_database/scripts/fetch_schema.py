@@ -26,7 +26,7 @@
 import argparse
 from typing import Any
 
-from science_skills.scienceskillscommon import http_client
+from science_skills.skills.scienceskillscommon import http_client
 
 SEARCH_CLIENT = http_client.HttpClient("https://search.rcsb.org", qps=2.0)
 DATA_CLIENT = http_client.HttpClient("https://data.rcsb.org", qps=2.0)

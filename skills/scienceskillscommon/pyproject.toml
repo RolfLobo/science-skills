@@ -10,4 +10,4 @@ build-backend = "hatchling.build"
 packages = ["."]
 
 [tool.hatch.build.targets.wheel.sources]
-"." = "science_skills/scienceskillscommon"
+"." = "science_skills/skills/scienceskillscommon"

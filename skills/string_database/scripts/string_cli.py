@@ -35,7 +35,7 @@ from typing import Any
 import urllib.parse
 import urllib.request
 
-from science_skills.scienceskillscommon import http_client
+from science_skills.skills.scienceskillscommon import http_client
 
 CALLER_IDENTITY = 'google-science-skills'
 URL_TEMPLATE = (

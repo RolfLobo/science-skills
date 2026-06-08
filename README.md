@@ -54,6 +54,18 @@ API key and guide you through writing in the correct location. However, if you
 would rather do this yourself, you can run a command like this in your terminal:
 `echo "ALPHAGENOME_API_KEY=your_actual_api_key" >> ~/.env`
 
+### Customizing or Creating Skills
+
+If you want to customize an existing Science Skill or create a new skill of your
+own, you should **not** modify the files inside the Antigravity Science plugin
+installation directory, as your changes will be overwritten whenever the plugin
+is updated. Instead, place your custom or modified skills elsewhere, e.g. in
+your personal skills directory:
+
+```
+~/.gemini/config/skills/
+```
+
 ## Links
 
 You can find examples of Science Skills use cases, including a demo, at

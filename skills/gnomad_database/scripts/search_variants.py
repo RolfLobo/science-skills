@@ -28,7 +28,7 @@ import json
 import os
 import sys
 
-from science_skills.scienceskillscommon import http_client
+from science_skills.skills.scienceskillscommon import http_client
 
 # Respect 10 queries per minute requirement.
 CLIENT = http_client.HttpClient("https://gnomad.broadinstitute.org", qps=0.1666)

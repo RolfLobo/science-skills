@@ -40,7 +40,7 @@ import time
 import urllib.error
 import urllib.parse
 
-from science_skills.scienceskillscommon import http_client
+from science_skills.skills.scienceskillscommon import http_client
 
 MAX_ALIGNMENT_HITS = 300
 POLLING_TIMEOUT = 15 * 60  # 15 minutes.

@@ -34,7 +34,7 @@ import time
 import urllib.parse
 
 import dotenv
-from science_skills.scienceskillscommon import http_client
+from science_skills.skills.scienceskillscommon import http_client
 
 _POLLING_TIMEOUT_SECS = 15 * 60  # 15 minutes.
 

@@ -33,7 +33,7 @@ import json
 import sys
 import urllib.parse
 
-from science_skills.scienceskillscommon import http_client
+from science_skills.skills.scienceskillscommon import http_client
 
 BASE_URL = "https://clinicaltrials.gov/api/v2"
 _CLIENT = http_client.HttpClient(BASE_URL + "/", qps=1.0)

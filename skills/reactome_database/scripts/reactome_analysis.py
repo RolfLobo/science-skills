@@ -38,7 +38,7 @@ import sys
 from typing import Any
 import urllib.parse
 
-from science_skills.scienceskillscommon import http_client
+from science_skills.skills.scienceskillscommon import http_client
 
 ANALYSIS_BASE_URL = "https://reactome.org/AnalysisService"
 CONTENT_BASE_URL = "https://reactome.org/ContentService"

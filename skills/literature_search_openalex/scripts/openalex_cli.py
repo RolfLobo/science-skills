@@ -41,7 +41,7 @@ import urllib.error
 import urllib.parse
 
 import dotenv
-from science_skills.scienceskillscommon import http_client
+from science_skills.skills.scienceskillscommon import http_client
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 

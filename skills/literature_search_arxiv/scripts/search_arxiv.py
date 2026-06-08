@@ -34,7 +34,7 @@ import sys
 import urllib.parse
 import xml.etree.ElementTree as ET
 
-from science_skills.scienceskillscommon import http_client
+from science_skills.skills.scienceskillscommon import http_client
 
 _BASE_URL = "http://export.arxiv.org/api/query?"
 _CLIENT = http_client.HttpClient(_BASE_URL, qps=1.0 / 3.0)

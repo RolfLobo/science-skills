@@ -32,7 +32,7 @@ import os
 import sys
 import urllib.error
 
-from science_skills.scienceskillscommon import http_client
+from science_skills.skills.scienceskillscommon import http_client
 
 _CLIENT = http_client.HttpClient("https://export.arxiv.org/", qps=1.0 / 3.0)
 

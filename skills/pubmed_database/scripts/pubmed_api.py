@@ -42,7 +42,7 @@ import urllib.parse
 import xml.etree.ElementTree as ET
 
 import dotenv
-from science_skills.scienceskillscommon import http_client
+from science_skills.skills.scienceskillscommon import http_client
 
 EUTILS_BASE = "https://eutils.ncbi.nlm.nih.gov"
 PMC_BIOC_BASE = (
